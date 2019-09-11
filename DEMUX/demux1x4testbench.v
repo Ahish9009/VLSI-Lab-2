@@ -25,7 +25,6 @@
 module demux1x4testbench;
 
 	// Inputs
-	reg EN;
 	reg I1;
 	reg S1;
 	reg S0;
@@ -37,8 +36,7 @@ module demux1x4testbench;
 	wire m4;
 
 	// Instantiate the Unit Under Test (UUT)
-	demux1x4 uut (
-		.EN(EN), 
+	demux1x4 uut ( 
 		.I1(I1), 
 		.S1(S1), 
 		.S0(S0), 
@@ -50,7 +48,6 @@ module demux1x4testbench;
 
 	initial begin
 		// Initialize Inputs
-		EN = 1;
 		I1 = 0;
 		S1 = 0;
 		S0 = 0;

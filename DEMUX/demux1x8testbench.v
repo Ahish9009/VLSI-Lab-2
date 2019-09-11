@@ -25,7 +25,6 @@
 module demux1x8testbench;
 
 	// Inputs
-	reg EN;
 	reg I1;
 	reg S2;
 	reg S1;
@@ -43,7 +42,6 @@ module demux1x8testbench;
 
 	// Instantiate the Unit Under Test (UUT)
 	demux1x8 uut (
-		.EN(EN), 
 		.I1(I1), 
 		.S2(S2), 
 		.S1(S1), 
@@ -60,7 +58,6 @@ module demux1x8testbench;
 
 	initial begin
 		// Initialize Inputs
-		EN = 1;
 		I1 = 0;
 		S2 = 0;
 		S1 = 0;

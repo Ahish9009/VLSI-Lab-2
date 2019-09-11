@@ -19,15 +19,14 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module demux1x2(
-    input EN,
     input I1,
     input S0,
     output m1,
     output m2
     );
 	 
-	 assign m1 = (~(S0)&I1)&EN;
-	 assign m2 = (S0&I1)&EN;
+	 assign m1 = (~(S0)&I1);
+	 assign m2 = (S0&I1);
 
 
 endmodule

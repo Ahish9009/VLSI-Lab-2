@@ -19,7 +19,6 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module demux1x4(
-    input EN,
 	 input I1,
     input S1,
     input S0,
@@ -29,9 +28,9 @@ module demux1x4(
     output m4
     );
 	 
-	 demux1x2 A1(EN, I1, S1, int1, int2);
-	 demux1x2 A2(EN, int1, S0, m1, m2);
-	 demux1x2 A3(EN, int2, S0, m3, m4); 
+	 demux1x2 A1(I1, S1, int1, int2);
+	 demux1x2 A2(int1, S0, m1, m2);
+	 demux1x2 A3(int2, S0, m3, m4); 
 
 
 endmodule
