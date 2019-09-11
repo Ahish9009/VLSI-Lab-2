@@ -19,7 +19,6 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module mux4x1(
-    input EN,
     input S0,
     input S1,
     input x1,
@@ -29,9 +28,9 @@ module mux4x1(
     output m1
     );
 	 
-	 mux2x1 A1(EN, S0, x1, x2, int1);
-	 mux2x1 A2(EN, S0, x3, x4, int2);
-	 mux2x1 A3(EN, S1, int1, int2, m1); 
+	 mux2x1 A1(S0, x1, x2, int1);
+	 mux2x1 A2(S0, x3, x4, int2);
+	 mux2x1 A3(S1, int1, int2, m1); 
 
 
 endmodule

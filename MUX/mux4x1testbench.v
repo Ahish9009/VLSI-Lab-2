@@ -25,7 +25,6 @@
 module mux4x1testbench;
 
 	// Inputs
-	reg EN;
 	reg S0;
 	reg S1;
 	reg x1;
@@ -38,7 +37,6 @@ module mux4x1testbench;
 
 	// Instantiate the Unit Under Test (UUT)
 	mux4x1 uut (
-		.EN(EN), 
 		.S0(S0), 
 		.S1(S1), 
 		.x1(x1), 
@@ -50,7 +48,6 @@ module mux4x1testbench;
 
 	initial begin
 		// Initialize Inputs
-		EN = 1;
 		S0 = 0;
 		S1 = 0;
 		x1 = 0;
@@ -65,8 +62,8 @@ module mux4x1testbench;
 
 	end
 	
-	always #3 S0=~S0;
-	always #6 S1=~S1;
+	always #16 S0=~S0;
+	always #32 S1=~S1;
 	always #1 x1=~x1;
 	always #2 x2=~x2;
 	always #4 x3=~x3;

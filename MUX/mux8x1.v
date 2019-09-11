@@ -19,7 +19,6 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module mux8x1(
-    input EN,
     input S0,
     input S1,
     input S2,
@@ -34,9 +33,9 @@ module mux8x1(
     output m1
     );
 	 
-	 mux4x1 A1(EN, S0, S1, x1, x2, x3, x4, int1);
-	 mux4x1 A2(EN, S0, S1, x5, x6, x7, x8, int2);
-	 mux2x1 A3(EN, S2, int1, int2, m1); 
+	 mux4x1 A1(S0, S1, x1, x2, x3, x4, int1);
+	 mux4x1 A2(S0, S1, x5, x6, x7, x8, int2);
+	 mux2x1 A3(S2, int1, int2, m1); 
 
 
 

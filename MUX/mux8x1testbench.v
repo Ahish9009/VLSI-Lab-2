@@ -25,7 +25,6 @@
 module mux8x1testbench;
 
 	// Inputs
-	reg EN;
 	reg S0;
 	reg S1;
 	reg S2;
@@ -43,7 +42,6 @@ module mux8x1testbench;
 
 	// Instantiate the Unit Under Test (UUT)
 	mux8x1 uut (
-		.EN(EN), 
 		.S0(S0), 
 		.S1(S1), 
 		.S2(S2), 
@@ -60,7 +58,6 @@ module mux8x1testbench;
 
 	initial begin
 		// Initialize Inputs
-		EN = 1;
 		S0 = 0;
 		S1 = 0;
 		S2 = 0;
@@ -80,17 +77,17 @@ module mux8x1testbench;
 
 	end
 	
-	always #1 S0=~S0;
-	always #2 S1=~S1;
-	always #4 S2=~S2;
-	always #1 x8=~x8;
-	always #2 x7=~x7;
-	always #3 x6=~x6;
-	always #4 x5=~x5;
-	always #5 x4=~x4;
-	always #6 x3=~x3;
-	always #7 x2=~x2;
-	always #8 x1=~x1;
+	always #1024 S0=~S0;
+	always #512 S1=~S1;
+	always #256 S2=~S2;
+	always #128 x8=~x8;
+	always #64 x7=~x7;
+	always #32 x6=~x6;
+	always #16 x5=~x5;
+	always #8 x4=~x4;
+	always #4 x3=~x3;
+	always #2 x2=~x2;
+	always #1 x1=~x1;
 	
       
 endmodule

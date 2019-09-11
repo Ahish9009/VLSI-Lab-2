@@ -19,7 +19,6 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module mux2x1(
-    input EN,
     input S0,
     input x1,
     input x2,
@@ -27,6 +26,6 @@ module mux2x1(
     );
 	 
 
-	 assign m1 = ( ~(S0)&x1 | (S0)&x2 ) & EN;
+	 assign m1 = ( ~(S0)&x1 | (S0)&x2 );
 
 endmodule

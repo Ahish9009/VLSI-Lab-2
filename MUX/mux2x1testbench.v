@@ -25,7 +25,6 @@
 module mux2x1testbench;
 
 	// Inputs
-	reg EN;
 	reg S0;
 	reg x1;
 	reg x2;
@@ -35,7 +34,6 @@ module mux2x1testbench;
 
 	// Instantiate the Unit Under Test (UUT)
 	mux2x1 uut (
-		.EN(EN), 
 		.S0(S0), 
 		.x1(x1), 
 		.x2(x2), 
@@ -44,7 +42,6 @@ module mux2x1testbench;
 
 	initial begin
 		// Initialize Inputs
-		EN = 1;
 		S0 = 0;
 		x1 = 0;
 		x2 = 0;
