@@ -1,0 +1,12 @@
+net 'EN' loc = 'H13';
+net 'I1' loc = 'R17';
+net 'I2' loc = 'N17';
+net 'I3' loc = 'L13';
+net 'I4' loc = 'L14';
+net 'I5' loc = 'K17';
+net 'I6' loc = 'K18';
+net 'I7' loc = 'H18';
+net 'I8' loc = 'G18';
+net 'Y2' loc = 'R4';
+net 'Y1' loc = 'F4';
+net 'Y0' loc = 'P15';

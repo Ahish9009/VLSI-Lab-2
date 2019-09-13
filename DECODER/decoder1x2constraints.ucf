@@ -1,0 +1,4 @@
+net 'EN' loc = 'R17';
+net 'I1' loc = 'N17';
+net 'm1' loc = 'R4';
+net 'm2' loc = 'F4';

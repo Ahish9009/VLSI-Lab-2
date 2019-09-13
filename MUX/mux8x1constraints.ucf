@@ -1,0 +1,12 @@
+net 'S2' loc = 'H13';
+net 'S1' loc = 'E18';
+net 'S0' loc = 'D18';
+net 'x1' loc = 'R17';
+net 'x2' loc = 'N17';
+net 'x3' loc = 'L13';
+net 'x4' loc = 'L14';
+net 'x5' loc = 'K17';
+net 'x6' loc = 'K18';
+net 'x7' loc = 'H18';
+net 'x8' loc = 'G18';
+net 'm1' loc = 'R4';
