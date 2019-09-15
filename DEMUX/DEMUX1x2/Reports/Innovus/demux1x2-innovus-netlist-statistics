@@ -1,0 +1,16 @@
+*** Statistics for net list demux1x2 ***
+Number of cells      = 2
+Number of nets       = 4
+Number of tri-nets   = 0
+Number of degen nets = 0
+Number of pins       = 10
+Number of i/os       = 4
+
+Number of nets with    2 terms = 2 (50.0%)
+Number of nets with    3 terms = 2 (50.0%)
+Number of nets with >=10 terms = 0 (0.0%)
+
+*** 2 Primitives used:
+Primitive NOR2BXL (1 insts)
+Primitive AND2XL (1 insts)
+************

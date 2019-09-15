@@ -1,0 +1,277 @@
+Statistics for GDS generated (version 3)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    191                             COMP
+    192                          DIEAREA
+    1                               Cont
+    2                               Cont
+    5                               Cont
+    3                               Cont
+    4                               Cont
+    6                               Cont
+    7                               Cont
+    8                             Metal1
+    9                             Metal1
+    10                            Metal1
+    11                            Metal1
+    14                            Metal1
+    12                            Metal1
+    13                            Metal1
+    15                            Metal1
+    16                            Metal1
+    17                            Metal1
+    22                              Via1
+    23                              Via1
+    26                              Via1
+    24                              Via1
+    25                              Via1
+    27                              Via1
+    28                              Via1
+    29                            Metal2
+    30                            Metal2
+    31                            Metal2
+    32                            Metal2
+    35                            Metal2
+    33                            Metal2
+    34                            Metal2
+    36                            Metal2
+    37                            Metal2
+    38                            Metal2
+    43                              Via2
+    44                              Via2
+    47                              Via2
+    45                              Via2
+    46                              Via2
+    48                              Via2
+    49                              Via2
+    50                            Metal3
+    51                            Metal3
+    52                            Metal3
+    53                            Metal3
+    56                            Metal3
+    54                            Metal3
+    55                            Metal3
+    57                            Metal3
+    58                            Metal3
+    59                            Metal3
+    64                              Via3
+    65                              Via3
+    68                              Via3
+    66                              Via3
+    67                              Via3
+    69                              Via3
+    70                              Via3
+    71                            Metal4
+    72                            Metal4
+    73                            Metal4
+    74                            Metal4
+    77                            Metal4
+    75                            Metal4
+    76                            Metal4
+    78                            Metal4
+    79                            Metal4
+    80                            Metal4
+    85                              Via4
+    86                              Via4
+    89                              Via4
+    87                              Via4
+    88                              Via4
+    90                              Via4
+    91                              Via4
+    92                            Metal5
+    93                            Metal5
+    94                            Metal5
+    95                            Metal5
+    98                            Metal5
+    96                            Metal5
+    97                            Metal5
+    99                            Metal5
+    100                           Metal5
+    101                           Metal5
+    106                             Via5
+    107                             Via5
+    110                             Via5
+    108                             Via5
+    109                             Via5
+    111                             Via5
+    112                             Via5
+    113                           Metal6
+    114                           Metal6
+    115                           Metal6
+    116                           Metal6
+    119                           Metal6
+    117                           Metal6
+    118                           Metal6
+    120                           Metal6
+    121                           Metal6
+    122                           Metal6
+    127                             Via6
+    128                             Via6
+    131                             Via6
+    129                             Via6
+    130                             Via6
+    132                             Via6
+    133                             Via6
+    134                           Metal7
+    135                           Metal7
+    136                           Metal7
+    137                           Metal7
+    140                           Metal7
+    138                           Metal7
+    139                           Metal7
+    141                           Metal7
+    142                           Metal7
+    143                           Metal7
+    148                             Via7
+    149                             Via7
+    152                             Via7
+    150                             Via7
+    151                             Via7
+    153                             Via7
+    154                             Via7
+    155                           Metal8
+    156                           Metal8
+    157                           Metal8
+    158                           Metal8
+    161                           Metal8
+    159                           Metal8
+    160                           Metal8
+    162                           Metal8
+    163                           Metal8
+    164                           Metal8
+    169                             Via8
+    170                             Via8
+    173                             Via8
+    171                             Via8
+    172                             Via8
+    174                             Via8
+    175                             Via8
+    176                           Metal9
+    177                           Metal9
+    178                           Metal9
+    179                           Metal9
+    182                           Metal9
+    180                           Metal9
+    181                           Metal9
+    183                           Metal9
+    184                           Metal9
+    185                           Metal9
+    18                            Metal1
+    19                            Metal1
+    20                            Metal1
+    21                            Metal1
+    39                            Metal2
+    40                            Metal2
+    41                            Metal2
+    42                            Metal2
+    60                            Metal3
+    61                            Metal3
+    62                            Metal3
+    63                            Metal3
+    81                            Metal4
+    82                            Metal4
+    83                            Metal4
+    84                            Metal4
+    102                           Metal5
+    103                           Metal5
+    104                           Metal5
+    105                           Metal5
+    123                           Metal6
+    124                           Metal6
+    125                           Metal6
+    126                           Metal6
+    144                           Metal7
+    145                           Metal7
+    146                           Metal7
+    147                           Metal7
+    165                           Metal8
+    166                           Metal8
+    167                           Metal8
+    168                           Metal8
+    186                           Metal9
+    187                           Metal9
+    188                           Metal9
+    189                           Metal9
+
+
+Stream Out Information Processed for GDS version 3:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             14
+
+Ports/Pins                            12
+    metal layer Metal2                 8
+    metal layer Metal3                 1
+    metal layer Metal4                 2
+    metal layer Metal6                 1
+
+Nets                                  86
+    metal layer Metal2                42
+    metal layer Metal3                34
+    metal layer Metal4                 5
+    metal layer Metal5                 3
+    metal layer Metal6                 2
+
+    Via Instances                    119
+
+Special Nets                          24
+    metal layer Metal1                12
+    metal layer Metal3                 2
+    metal layer Metal7                 2
+    metal layer Metal8                 4
+    metal layer Metal9                 4
+
+    Via Instances                    100
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Text                                  32
+    metal layer Metal2                18
+    metal layer Metal3                 5
+    metal layer Metal4                 5
+    metal layer Metal6                 2
+    metal layer Metal8                 2
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+######Streamout is finished!
+innovus 2> Gate area 2.2707 um^2
+*** Statistics for net list demux1x8 ***
+Number of cells      = 14
+Number of nets       = 18
+Number of tri-nets   = 0
+Number of degen nets = 0
+Number of pins       = 54
+Number of i/os       = 12
+
+Number of nets with    2 terms = 8 (44.4%)
+Number of nets with    3 terms = 8 (44.4%)
+Number of nets with    5 terms = 1 (5.6%)
+Number of nets with    9 terms = 1 (5.6%)
+Number of nets with >=10 terms = 0 (0.0%)
+
+*** 3 Primitives used:
+Primitive NOR2BXL (7 insts)
+Primitive AND2XL (4 insts)
+Primitive AND2X1 (3 insts)
+************
+

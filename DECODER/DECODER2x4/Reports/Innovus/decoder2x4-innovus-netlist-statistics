@@ -1,0 +1,18 @@
+*** Statistics for net list decoder2x4 ***
+Number of cells      = 6
+Number of nets       = 9
+Number of tri-nets   = 0
+Number of degen nets = 0
+Number of pins       = 25
+Number of i/os       = 7
+
+Number of nets with    2 terms = 4 (44.4%)
+Number of nets with    3 terms = 4 (44.4%)
+Number of nets with    5 terms = 1 (11.1%)
+Number of nets with >=10 terms = 0 (0.0%)
+
+*** 3 Primitives used:
+Primitive NOR2BXL (3 insts)
+Primitive AND2XL (2 insts)
+Primitive AND2X1 (1 insts)
+************
