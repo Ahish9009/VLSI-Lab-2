@@ -9,4 +9,4 @@ net 'I7' loc = 'H18';
 net 'I8' loc = 'G18';
 net 'Y2' loc = 'R4';
 net 'Y1' loc = 'F4';
-net 'Y0' loc = 'P15';
+net 'Y0' loc='P15';
